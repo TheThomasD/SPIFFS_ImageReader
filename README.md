@@ -1,4 +1,6 @@
-# SPIFFS_ImageReader
+# SPIFFS_ImageReader - altered version that only works with 24 bit bmp images (produced e.g. by Paint in Win10), but splits the images into parts while loading so that larger images can be loaded into memory for quicker display
+
+# Original readme:
 
 Companion library for Adafruit_GFX to load images from SPIFFS partition; tested with Arduino core for the ESP32.
 
