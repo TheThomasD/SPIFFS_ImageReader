@@ -325,7 +325,7 @@ ImageReturnCode SPIFFS_ImageReader::coreBMP(
         for (int i = 0; allDestsCreated && remainingHeight > 0 && i < NUM_CANVAS; i++)
         {
           uint16_t canvasHeight = remainingHeight > CANVAS_HEIGHT ? CANVAS_HEIGHT : remainingHeight;
-          remainingHeight -= 40;
+          remainingHeight -= CANVAS_HEIGHT;
           if (!(img->canvas[i] = new GFXcanvas16(bmpWidth, canvasHeight)))
             allDestsCreated = false;
         }

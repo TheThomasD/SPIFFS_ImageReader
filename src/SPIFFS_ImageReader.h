@@ -15,12 +15,12 @@
 
 /* 
  * can load images up to NUM_CANVAS * CANVAS_HEIGHT pixels in height. Example:
- * #define NUM_CANVAS 6
- * #define CANVAS_HEIGHT 40
- * --> max image height = 6*40 = 240px
+ * #define NUM_CANVAS 12
+ * #define CANVAS_HEIGHT 20
+ * --> max image height = 12*20 = 240px
  */
-#define NUM_CANVAS 6
-#define CANVAS_HEIGHT 40
+#define NUM_CANVAS 12
+#define CANVAS_HEIGHT 20
 
 #include "SPIFFS.h"
 #include "Adafruit_SPITFT.h"
